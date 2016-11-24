@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CodegamePlatform:war exploded">
+    <output-path>/usr/local/apache-tomcat-9.0.0.M13/webapps/CodegamePlatform</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="CodegamePlatform/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CodegamePlatform" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
