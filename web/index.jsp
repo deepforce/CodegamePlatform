@@ -6,40 +6,34 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>life.jsp</title>
+      <meta charset="utf-8">
+
+      <title>Hello World</title>
+
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
   </head>
   <body>
-         <%!
-             private int initVar=0;
-             private int serviceVar=0;
-             private int destroyVar=0;
-         %>
 
-         <%!
-             public void jspInit(){
-                 initVar++;
-                 System.out.println("jspInit(): JSP被初始化"+initVar+"次");
-             }
+  <div class="radmenu">
+      <a href="#" class="show" >开始</a>
+      <ul>
+          <li>
+          <a href="#" class="" id="5">开始游戏</a>
+          <ul class="choice">
+              <li><a href="#" id="aa">关卡1</a></li>
+              <li><a href="#">关卡2</a></li>
+              <li><a href="#">关卡3</a></li>
+              <li><a href="#">关卡4</a></li>
+              <li><a href="#">关卡5</a></li>
+          </ul>
+          </li>
+      </ul>
+  </div>
 
-             public void jspDestroy(){
-                 destroyVar++;
-                 System.out.println("jspDestroy(): JSP被销毁了"+destroyVar+"次");
-             }
-         %>
-
-         <%
-             serviceVar++;
-             System.out.println("_jspService(): JSP共响应了"+serviceVar+"次请求");
-
-             String content1="初始化次数："+initVar;
-             String content2="响应客户请求" + "次数:"+serviceVar;
-             String content3="销毁次数："+destroyVar;
-         %>
-         <h1>测试</h1>
-         <p><%=content1 %></p>
-         <p><%=content2 %></p>
-         <p><%=content3 %></p>
+  <script src="js/index.js"></script>
   </body>
 </html>
