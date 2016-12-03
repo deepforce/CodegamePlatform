@@ -9,19 +9,21 @@ function setSelected(e) {
 
     if (this.classList.contains("selected")) {
       this.classList.remove("selected");
+      if(this.parentNode.classList.contains("startgame"))
+          this.innerHTML="开始游戏";
       if (!this.parentNode.classList.contains("radmenu")) {
         this.parentNode.parentNode.parentNode.querySelector("a").classList.add("selected")
       } else {
-        this.classList.add("show");
+              this.classList.add("show");
       }
     } else {
-        if (!this.classList.contains("choice"))
-            this.classList.add("selected");
-
+        this.classList.add("selected");
+        if(this.parentNode.classList.contains("startgame"))
+            this.innerHTML="返回";
       if (!this.parentNode.classList.contains("radmenu")) {
         this.parentNode.parentNode.parentNode.querySelector("a").classList.remove("selected")
       } else {
-        this.classList.remove("show");
+              this.classList.remove("show");
       }
     }
     return false;
@@ -29,6 +31,7 @@ function setSelected(e) {
 
 var test = document.getElementById("aa");
 
-test.onmousemove = function moveimg(e) {document.body.style.background="url(js/test.jpeg)";};
-test.onmouseout = function moveimg(e) {document.body.style.background="url(js/test1.jpeg)";};
+test.onmousemove = function moveimg(e) {document.body.style.background="url(img/test.jpeg)";};
+test.onmouseout = function moveimg(e) {document.body.style.background="url(img/test1.jpeg)";};
+
 

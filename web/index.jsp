@@ -21,19 +21,52 @@
   <div class="radmenu">
       <a href="#" class="show" >开始</a>
       <ul>
+          <li class="startgame">
+              <a href="#">开始游戏</a>
+          </li>
           <li>
-          <a href="#" class="" id="5">开始游戏</a>
-          <ul class="choice">
-              <li><a href="#" id="aa">关卡1</a></li>
-              <li><a href="#">关卡2</a></li>
-              <li><a href="#">关卡3</a></li>
-              <li><a href="#">关卡4</a></li>
-              <li><a href="#">关卡5</a></li>
-          </ul>
+              <a href="#">选项</a>
+              <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                  <li><a href="#">Sub Menu 4</a></li>
+                  <li><a href="#">Sub Menu 5</a></li>
+              </ul>
+          </li>
+          <li>
+              <a href="#">帮助</a>
+              <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                  <li><a href="#">Sub Menu 4</a></li>
+                  <li><a href="#">Sub Menu 5</a></li>
+              </ul>
+          </li>
+          <li>
+              <a href="#">反馈</a>
+              <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                  <li><a href="#">Sub Menu 4</a></li>
+                  <li><a href="#">Sub Menu 5</a></li>
+              </ul>
+          </li>
+          <li>
+              <a href="#">关于</a>
+              <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                  <li><a href="#">Sub Menu 4</a></li>
+                  <li><a href="#">Sub Menu 5</a></li>
+              </ul>
           </li>
       </ul>
   </div>
-
   <script src="js/index.js"></script>
+
   </body>
 </html>

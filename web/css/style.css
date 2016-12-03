@@ -1,6 +1,5 @@
 body {
-  background: url(Hazy_Forest_Road_Wallpaper_qoek0.jpg);
-
+  background: url(../img/Hazy_Forest_Road_Wallpaper_qoek0.jpg);
 }
 
 .radmenu {
@@ -18,6 +17,7 @@ body {
 .radmenu > a.show {
   display: flex !important;
 }
+
 .radmenu li {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -49,20 +49,28 @@ body {
   color: #66ccff;
   box-shadow: 0 0 10px #66ccff;
 }
-.selected #5 {
-  background: rgba(51, 51, 51, 0.9);
+.startgame .selected {
+  position: absolute;
+  width: 60px;
+  height: 60px;
   display: flex;
-  top: calc(50% - 60px);
-  left: calc(50% - 60px);
-  color: #66ccff;
-  box-shadow: 0 0 10px #66ccff;
-  transition: all 1s ease;
+  -webkit-transform: translate(540px,-240px);
+  transform: translate(550px,-240px);
 }
+
+
+
+
+
+/*
+
 .radmenu .selected + .choice > li:nth-child(1) {
   -webkit-transform: rotate(72deg) translate(-405px,300px);
   transform:  rotate(72deg) translate(-405px,300px);
 
 }
+
+
 
 .radmenu .selected + .choice > li:nth-child(2) {
 
@@ -84,7 +92,7 @@ body {
   transform: rotate(288deg) translate(220px,100px);
 
 }
-
+*/
 .radmenu .selected + ul > li:nth-child(1) {
   -webkit-transform: rotate(72deg) translateX(100px);
   transform: rotate(72deg) translateX(100px);
