@@ -22,7 +22,7 @@
       <a href="#" class="show" >开始</a>
       <ul>
           <li class="startgame">
-              <a href="#">开始游戏</a>
+              <a href="#" class="begin">开始游戏</a>
           </li>
           <li>
               <a href="#">选项</a>
@@ -66,6 +66,36 @@
           </li>
       </ul>
   </div>
+  <div class="menu">
+      <ul class="menu-inner">
+          <a href="#" class="menu-link">
+              <li>Chapter 1</li>
+          </a>
+          <a href="#" class="menu-link">
+              <li>Chapter 2</li>
+          </a>
+
+      </ul>
+      <ul class="menu-inner">
+          <a href="#" class="menu-link">
+              <li>Chapter 3</li>
+          </a>
+          <a href="#" class="menu-link">
+              <li>Chapter 4</li>
+          </a>
+
+      </ul>
+      <ul class="menu-inner">
+          <a href="#" class="menu-link">
+              <li>Chapter 5</li>
+          </a>
+          <a href="#" class="menu-link">
+              <li>Chapter 6</li>
+          </a>
+
+      </ul>
+  </div>
+  <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
   <script src="js/index.js"></script>
 
   </body>

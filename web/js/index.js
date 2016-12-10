@@ -28,10 +28,14 @@ function setSelected(e) {
     }
     return false;
 }
-
+/*
 var test = document.getElementById("aa");
 
 test.onmousemove = function moveimg(e) {document.body.style.background="url(img/test.jpeg)";};
 test.onmouseout = function moveimg(e) {document.body.style.background="url(img/test1.jpeg)";};
+*/
+$(".begin").click(function(){
+      $(".menu, .menu-link").toggleClass("active");
+});
 
 
